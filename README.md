@@ -6,22 +6,39 @@ Use it against **your own organization** to test the APIs and extend the code.
 
 ## Quick Start
 
+Open VS Code and open a new terminal.
+
+Create or open a folder you plan on storing this project.
+
+Follow one of the paths based off your OS.
+
+**PC**
+
 ```powershell
-# 1. Create and activate virtual environment
+git clone https://github.com/jzuke-wx1-2026/wxcc-standalone-dashboard.git
+cd wxcc-standalone-dashboard
+
 python -m venv venv
 .\venv\Scripts\Activate.ps1
-
-# 2. Install dependencies
 pip install -r requirements.txt
-
-# 3. Optional: copy .env for regional API base URLs
 copy .env.example .env
-
-# 4. Run the dashboard
 python app.py
 ```
 
-Open **http://127.0.0.1:5000** in your browser. Enter your **access token** and **organization ID** in the Connect panel.
+**Mac**
+
+```bash
+git clone https://github.com/jzuke-wx1-2026/wxcc-standalone-dashboard.git
+cd wxcc-standalone-dashboard
+
+python3 -m venv venv
+source venv/bin/activate
+pip install -r requirements.txt
+cp .env.example .env
+python3 app.py
+```
+
+Open **http://127.0.0.1:5000** in your browser. Enter your access token and organization ID in the Connect panel.
 
 ## Required Access
 
