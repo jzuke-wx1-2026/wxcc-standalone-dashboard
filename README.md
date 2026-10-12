@@ -6,9 +6,9 @@ Use it against **your own organization** to test the APIs and extend the code.
 
 ## Quick Start
 
-Open VS Code and open a new terminal.
+Open VS Code and create or open a folder you want to store this project.
 
-Create or open a folder you plan on storing this project.
+Open a new terminal.
 
 Follow one of the paths based off your OS.
 
@@ -48,12 +48,12 @@ The token must be able to call Contact Center configuration APIs (`cjp:config`, 
 
 ## What You Get
 
-| Tab | What it shows |
-|-----|----------------|
-| Users | Contact Center users, profiles, skills, teams, channel types |
-| Org Data | Entry points, queues, teams, auxiliary codes, global variables (editable) |
-| Reports | CSR / ASR summaries, session details, real-time agent states |
-| Webex APIs | Control Hub people, Calling locations, PSTN / trunk for mapped numbers |
+| Tab        | What it shows                                                             |
+| ---------- | ------------------------------------------------------------------------- |
+| Users      | Contact Center users, profiles, skills, teams, channel types              |
+| Org Data   | Entry points, queues, teams, auxiliary codes, global variables (editable) |
+| Reports    | CSR / ASR summaries, session details, real-time agent states              |
+| Webex APIs | Control Hub people, Calling locations, PSTN / trunk for mapped numbers    |
 
 Endpoints and JSON field names live in `api_config.py` so you can change them as APIs evolve. Fetch logic is in `modules/`. The Flask routes in `app.py` and tables in `static/js/dashboard.js` are the main extension points.
 
